@@ -12,7 +12,7 @@ module.exports = {
     AUTO_STATUS_REACT: convertToBool(process.env.AUTO_STATUS_REACT, "true"),
     CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🔥,❤️‍🩹,❤️,🩷,🧡,💛,💚,💙,🩵,💜,🤎,🖤,🩶,🤍",
     DELETE_LINKS: convertToBool(process.env.DELETE_LINKS, "false"),
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "254700143167",
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "22383267744",
     OWNER_NAME: process.env.OWNER_NAME || "✦ Silva ✦ MD ✦",
     DESCRIPTION: process.env.DESCRIPTION || "*© ✦ Silva ✦ MD ✦*",
     ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/5uli5p.jpeg",
@@ -35,4 +35,5 @@ module.exports = {
     // Debug Settings
     DEBUG: convertToBool(process.env.DEBUG, "true")
 };
+
 
